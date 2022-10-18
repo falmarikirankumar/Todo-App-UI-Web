@@ -16,7 +16,7 @@
 <body>
 
     <center>
-        <div style="opacity:0.6; background-color: rgb(104, 110, 114);">
+        <div style="filter: blur(2px);">
             <div id="div-head">
                 <h1>Tasks <b>List</b></h1>
             </div>
@@ -111,6 +111,22 @@
                 </div>
             </div>
         </div>
+        <div class="box-items" id="add-new-task">
+            <div style="display: flex; flex-wrap: wrap;">
+                <div style="width:80% ; text-align: left; padding-left:25px ;">
+                <h2>Add New Task</h2>
+                </div>
+                <div style="padding-left:40px ;"><a href="./index.html"><h2><i class="fa-solid fa-xmark"></i></h2></a></div>
+            </div>
+            <hr style="opacity: 0.2;"/>
+            <div >
+                <input type="text" name="task" id="task" placeholder="Learn C++" style="width:80%; height: 25px; margin: 20px;"/>
+            </div>
+            <div style="margin-left:60%;">
+                <button style="background-color: #00A5EC; color: #F7F7F7; border-radius: 4px; padding:10px ; text-align: left; ">&nbsp;&nbsp;+&nbsp; Add Task&nbsp;&nbsp;</button>
+            </div>
+        </div>
+        
     </center>
 </body>
 
